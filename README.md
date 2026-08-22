@@ -1,44 +1,82 @@
- CatoEdits Portfolio Website
+#  Chess Game
 
-A responsive portfolio website developed as a freelance web development project for showcasing video editing and design work.
+A GUI-based Chess Game developed in **C++** as a university programming project.
 
-Live Website
+The project implements the core rules and functionality of a standard chess game, including piece movement, captures, check, checkmate, castling, and other game rules.
 
-[Visit CatoEdits](https://catoedits.online/)
+##  Features
 
- About the Project
+* Complete chess board and piece implementation
+* GUI-based gameplay
+* Legal movement for all chess pieces
+* Piece capturing
+* Check detection
+* Checkmate detection
+* Castling
+* Turn-based gameplay
+* Game state management
+* Win/game-over detection
+* Visual representation of the chess board and pieces
 
-This project is a personal portfolio website created to showcase creative work, video editing projects, previous collaborations, and contact information.
+##  Technologies Used
 
-The website was developed with a focus on clean presentation, simple navigation, and a responsive layout for different screen sizes.
+* **C++**
+* **Object-Oriented Programming**
+* **GUI Programming**
+* **Visual Studio**
 
-Features
+##  Concepts Used
 
-- Responsive portfolio layout
-- About section
-- Project showcase
-- Categorized video editing projects
-- Creator/client showcase
-- Contact section
-- Social media links
-- Mobile-friendly design
-- Custom domain deployment
+* Object-Oriented Programming
+* Classes and Objects
+* Inheritance
+* Encapsulation
+* Polymorphism
+* Data Structures
+* Game Logic
+* Event Handling
+* State Management
 
-Technologies Used
+##  Project Structure
 
-- HTML5
-- CSS3
-- JavaScript
-
-Project Structure
-
-text
-portfolio/
+```text
+CHESS-GAME/
 │
-├── index.html
-├── CNAME
-├── images/
-└── other project assets
+├── CHESS/
+│   └── Source files and project files
+│
+├── x64/
+│   └── Build files
+│
+├── CHESS.slnx
+├── DejaVuSans.ttf
+└── .gitattributes
+```
+
+##  How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Aimancoding/CHESS-GAME.git
+```
+
+2. Open the project in **Visual Studio**.
+
+3. Build the project.
+
+4. Run the application.
 
 
 
+##  Purpose
+
+This project was developed to strengthen my understanding of **C++, object-oriented programming, data structures, GUI development, and implementing complex game logic**.
+
+##  Developer
+
+**Aiman Rao**
+
+Computer Science Undergraduate — FAST-NUCES
+
+[GitHub](https://github.com/Aimancoding)
