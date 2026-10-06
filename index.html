@@ -680,13 +680,25 @@ a:hover {
         <div class="project-category">
             <h3>Lifestyle/Vlog</h3>
             <div class="projects-grid">
+
+                <!-- Video 1 -->
                 <div class="project">
-                    <video autoplay loop muted playsinline controls preload="auto" style="width: 100%; aspect-ratio: 9/16; max-height: 450px; object-fit: contain; background: #000; border-radius: 8px; display: block; margin: 0 auto;">
+                    <video autoplay loop muted playsinline controls preload="auto" style="width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px; display: block;">
                         <source src="Trial Sample - Dooly.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                    <a href="https://f.io/EmGcHk8U" target="_blank">( Lifestyle / Vlog Edit )</a>
+                    <a href="https://f.io/EmGcHk8U" target="_blank">( Lifestyle / Vlog Edit 1 )</a>
                 </div>
+
+                <!-- Video 2 -->
+                <div class="project">
+                    <video autoplay loop muted playsinline controls preload="auto" style="width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px; display: block;">
+                        <source src="Sample Jia .mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <a href="#" target="_blank">( Lifestyle / Vlog Edit 2 )</a>
+                </div>
+
             </div>
         </div>
         <!-- High budget Faceless -->
@@ -917,5 +929,16 @@ a:hover {
             sectionObserver.observe(section);
         });
     </script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var videos = document.querySelectorAll('.auto-video');
+        videos.forEach(function(video) {
+            video.muted = true; // Ensure video is muted for browser policy
+            video.play().catch(function(error) {
+                console.log("Autoplay prevented:", error);
+            });
+        });
+    });
+</script>
 </body>
 </html>
